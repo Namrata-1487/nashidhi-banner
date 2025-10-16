@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import logo from "../images/logo-transparent.png";
 
 // Sample images (make sure these exist in src/images/)
-import machine2 from "../images/machine2.jpg";
-import maxres from "../images/maxresdefault.jpg";
+import machine2 from "../images/sample-2.jpeg";
+import maxres from "../images/sample-5.gif";
 import assy from "../images/offer3.png";
 import drafting from "../images/drafting.png";
 import fea from "../images/fea.jpg";
-import food from "../images/food-machinery.jpg";
-import istock from "../images/istockphoto-696254096-2048x2048.jpg";
-import machine1 from "../images/machine1.jpg";
+import food from "../images/sample-3.jpg";
+import istock from "../images/sample-4.jpg";
+import machine1 from "../images/sample-1.jpg";
 
 import "../App.css";
 
@@ -22,14 +22,14 @@ export default function NashidhiBanner({ email = "nashidhidesigns@gmail.com" }) 
   const cardRef = useRef(null);
 
   const images = [
-    { src: assy, caption: "Assembly exploded view" },
+    { src: assy, caption: "Sample Assembly" },
     { src: machine1, caption: "High-detail assembly render" },
     { src: machine2, caption: "Pharma filling machine" },
     { src: drafting, caption: "2D technical drawing / GAD" },
     { src: fea, caption: "FEA / simulation preview" },
-    { src: food, caption: "Food machinery render" },
+    { src: food, caption: "Assembly exploded view" },
     { src: istock, caption: "Rendered part over drawing" },
-    { src: maxres, caption: "Assembly exploded view example" },
+    { src: maxres, caption: "Assembly Animation" },
   ];
 
   // autoplay effect
